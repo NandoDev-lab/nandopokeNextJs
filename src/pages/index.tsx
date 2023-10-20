@@ -7,7 +7,7 @@ import Pokedex from '../components/card.js'
 const inter = Inter({ subsets: ['latin'] })
 
 export async function getStaticProps() {
-  const maxPokemon = 151 
+  const maxPokemon = 250 
   const maxlimit = '?limit='
   const nome ="pokemon"
   const api = 'https://pokeapi.co/api/v2/'
