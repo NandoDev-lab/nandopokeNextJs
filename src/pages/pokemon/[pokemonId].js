@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Styles from '../../styles/pokemondetails.module.css'
 
 export const getStaticPaths = async () => {
-    const maxPokemon = 151
+    const maxPokemon = 250
     const api = 'https://pokeapi.co/api/v2/pokemon/'
 
     const res = await fetch(`${api}/?limit=${maxPokemon}`)
