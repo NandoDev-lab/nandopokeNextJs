@@ -1,0 +1,33 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.sublayout{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.foto{ 
+    display: flex;     
+    padding: 10px;   
+}
+.contact{
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;   
+}
+.contact h3{
+    margin-bottom: 10px;
+}
+.subtitle{
+    font-weight: bolder;
+    padding: 5px;
+
+}
+.contact p{
+    margin-top: 5px;
+}

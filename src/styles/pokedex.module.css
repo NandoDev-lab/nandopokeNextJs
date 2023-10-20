@@ -1,0 +1,42 @@
+.pokedex{display: flex;
+    z-index: -1;
+}
+.pokemon{ 
+    margin-top: 65px;
+    margin-left: 45px;
+    position:absolute;
+}
+.data{
+    display: flex;
+    position: absolute;
+    margin-top: -133px;
+    margin-left: 80px;
+}
+.data h3{
+    padding: 0px 5px 0px 5px;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 90px; 
+
+}
+
+.pokedetails{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: darkgreen;
+    border: 2px solid rgb(80, 53, 233);
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 2px 2px;
+    
+}
+.pokedetails a{ 
+    color: aliceblue;
+    text-decoration: none;
+}
